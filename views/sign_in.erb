@@ -1,0 +1,11 @@
+<form class='delete' action="/users/signin" method="post">
+  <div id='username'>
+  <label for="username">Username: </label>
+    <input type="text" name="username" value="<%= params['username'] || 'username' %>">
+  </div>
+  <div id='password'>
+  <label for="password">Password: </label>
+    <input type="text" name="password" value="">
+  </div>
+  <button type="submit">Sign In</button>
+</form>

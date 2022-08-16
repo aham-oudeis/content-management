@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <title>Content Management System</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/stylesheets/whitespace-reset.css">
+    <link rel="stylesheet" href="/stylesheets/cms.css">
+  </head>
+  <body>
+    <% if session['flash_error'] %>
+    <div class='flash error'>
+      <p><%= session.delete('flash_error') %></p>
+    </div>
+    <% elsif session['flash_success'] %>
+    <div class='flash success'>
+      <p><%= session.delete('flash_success') %></p>
+    </div>
+    <% end %>
+    <main>
+      <%== yield %>
+    </main>
+  </body>
+</html>

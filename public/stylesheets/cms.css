@@ -1,0 +1,121 @@
+body {
+  padding: 1em;
+  font-family: sans-serif;
+}
+
+.flash {
+  padding: 1em;
+  background-color: yellow;
+}
+
+ul {
+  width: 80%;
+}
+
+ul li {
+  width: 100%;
+  padding: .5em;
+  box-sizing: border-box;
+  list-style-type: square;
+}
+
+ul li div {
+  width: 10%;
+  box-sizing: border-box;
+  display: inline-block;
+}
+
+ul li a .links {
+  width: 30px;
+  margin: 1em;
+  box-sizing: border-box;
+}
+
+ul li .edit {
+  width: 40%;
+  margin: 2em;
+  text-align: right;
+}
+
+form.delete {
+  display: inline-block;
+}
+
+div.actions {
+  width: 40%;
+  margin: 2em 3em;
+}
+
+a.signin {
+  width: 40%;
+  margin: 2em 3em;
+}
+
+p.inline {
+  display: inline;
+}
+/*
+form dt {
+  padding: 0 0 10px 0; 
+}
+
+form dd {
+  padding: 0 0 15px 0; 
+}
+
+form input[type="text"] {
+  width: 60%;
+  height: 350px;
+  padding: 0px 10px;
+  font: normal 12px "PT Sans", Helvetica, Arial, sans-serif;
+  border: 1px solid #a4a4a4;
+  box-sizing: border-box; 
+}
+
+form input[type="submit"] {
+  padding: 12px 45px;
+  margin: 0 40px 0 0;
+  font: normal 20px "PT Sans", Helvetica, Arial, sans-serif;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  background: #dd5f4f;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -webkit-transition: background-color 200ms ease;
+  -moz-transition: background-color 200ms ease;
+  -o-transition: background-color 200ms ease; 
+}
+
+form input[type="submit"]:hover {
+  background-color: #d13b28;
+  cursor: pointer; 
+}
+
+
+#files li {
+  position: relative;
+  padding: 18px 25px 18px 57px;
+  margin: 0 0 10px 0;
+  border-radius: 8px;
+  background: #f6f6f6; 
+}
+
+#files a {
+  display: block;
+  color: inherit; 
+}
+
+#files h2 {
+  display: inline-block;
+  width: 95%; 
+}
+
+#files p {
+  display: inline-block;
+  width: 5%;
+  font-size: 0.9em;
+  float: right;
+  color: #666666; 
+}
+*/
